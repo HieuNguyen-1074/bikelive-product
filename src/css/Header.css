@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+h1{
+    margin-right: auto;
+    font-size:2rem;
+    color: rgb(82 150 147);
+    text-transform: capitalize;
+}
+.header-navbar{
+    margin-right: 2rem;
+}
+.header-navbar li{
+    display: inline-block;
+    list-style: none;
+    text-transform: capitalize;
+    margin: 0 .6rem;
+
+}
+.cart sup{
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 100%;
+    font-size: .7rem;
+    padding: 0 6px;
+    background: #fff;
+   transform: translate(-50%, -50%);
+}
+.icon-cart{
+    width: 25px;
+    height: 25px;
+    margin-top: -7px;
+}
